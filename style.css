@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(43, 67, 140);
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    align-content: space-around;
+    list-style:none ;
+
+
+}
+#logo-img img{
+    width:100px;
+    height:100px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.toptext{
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(205, 120, 36);
+}
+.nav-link{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-link:hover{
+    color: #f05;
+}
+#home{
+    background: black;
+    color: white;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header div p{
+    font-size: 2em;
+    font-weight: 200;
+}
+h1,
+h2,
+h3,
+h4{
+    font-weight: 700;
+}
+
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2.5em;
+    color: yellow;
+}
+
+#bio{
+    display: flex;
+    
+    align-items: center;
+}
+#bio img{
+    width:250px;
+    height: 250px;
+    margin:100px;
+}
+#bio article*{
+    margin: 20px;
+}
+.break{
+    display:block;
+    margin:10px;
+}
+p{
+    font-size: medium;
+}
+hr{
+    width:400px;
+}
+#portfolio{
+    background-color: rgb(226, 12, 12);
+    color: yellow;
+}
+h4{
+    color: whitesmoke;
+}
+#portfolio,
+#skills{
+    display: flex;
+   flex-direction: column; 
+    align-items: center;
+    align-content: center;
+}
+#portfolio div{
+   display:flex;
+   
+   justify-content: space-around;
+   width:100%;
+   height:40%;
+}
+#portfolio div article{
+    background-color: wheat;
+    background:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+#portfolio img{
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+}
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#skills-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:whitesmoke;
+}
+#skills ul{
+    list-style: none;
+}
+
+progress[value]{
+    height: 10px;
+    width:250px;
+    
+}
+skills ul{
+    font-size: 1em;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.ram{
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
